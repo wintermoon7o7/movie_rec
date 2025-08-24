@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <h1 align="center">The Movie Cinema</h1>
+  <h1 align="center">Watch Next -></h1>
 
   <p align="center">
     A Flask-based web application for discovering movies, getting recommendations, and reading sentiment-analyzed reviews.
@@ -21,9 +21,9 @@
 
 ## About The Project
 
-**The Movie Cinema** is a comprehensive movie recommendation engine. This application provides all the details of a requested movie, such as its overview, genre, release date, rating, runtime, top cast, and similar movie recommendations.
+**Watch Next** is a comprehensive movie recommendation engine. This application provides all the details of a requested movie, such as its overview, genre, release date, rating, runtime, top cast, and similar movie recommendations.
 
-A unique feature of this project is its sentiment analysis capability. Movie details are fetched from the TMDB API, and the application then uses the movie's IMDB ID to scrape user reviews from the IMDB website. These reviews are processed by a pre-trained NLP model to determine if the sentiment is positive or negative, providing users with a quick sentiment overview.
+A unique feature of this project is its sentiment analysis capability. Movie details are fetched from the OMDB API, and the application then uses the movie's IMDB ID to scrape user reviews from the IMDB website. These reviews are processed by a pre-trained NLP model to determine if the sentiment is positive or negative, providing users with a quick sentiment overview.
 
 The front-end is designed to be user-friendly, with auto-suggestions to help you find movies as you type. If you can't find a movie in the suggestions, just type the full name and press enter; the search is robust enough to handle minor typos.
 
